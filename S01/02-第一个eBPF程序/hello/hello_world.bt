@@ -1,0 +1,10 @@
+#!/usr/bin/env bpftrace
+/*
+* SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
+* Copyright (c) 2023 fei_cong(https://github.com/feicong/ebpf-course)
+ */
+
+tracepoint:syscalls:sys_enter_exec*
+{
+	printf("Hello World\n");
+}
