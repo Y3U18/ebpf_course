@@ -1,7 +1,7 @@
 # eBPF开发环境准备
 
 // SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
-/* Copyright (c) 2023 fei_cong(https://github.com/feicong/ebpf-course) */
+
 
 ## 系统准备
 
